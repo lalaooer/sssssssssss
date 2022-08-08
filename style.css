@@ -1,0 +1,241 @@
+.atwho-view{
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  margin-top:18px;
+  background:#222222;
+  color:#AAAAAA;
+  border: 1px solid #2A2A2A;
+  border-radius:3px;
+  box-shadow: 0px 0px 8px #1b1919;
+  min-width:120px;
+  z-index:11110!important;
+  padding: 4px;
+  margin-bottom: 100px;
+}
+.atwho-view .atwho-header{
+  padding:5px;
+  margin:5px;
+  cursor:pointer;
+  color:#6f8092;
+  font-size:11px;
+  font-weight:700
+}
+.atwho-view .atwho-header .small{
+  color:#6f8092;
+  float:right;
+  padding-top:2px;
+  margin-right:-5px;
+  font-size:12px;
+  font-weight:400
+}
+.atwho-view .atwho-header:hover{
+  cursor:default
+}
+.atwho-view .cur{
+  background:#3875D7;
+  color:#fff;
+  border-radius:3px;
+}
+.atwho-view .cur small{
+  color:#fff
+}
+.atwho-view strong{
+  color:#CDCDCD
+}
+.atwho-view .cur strong{
+  color:#fff;
+  font:700
+}
+.atwho-view ul{
+  list-style:none;
+  padding:0;
+  margin:auto;
+  max-height:200px;
+  overflow-y:auto
+}
+.atwho-view ul li img{
+  margin-right: 5px;
+  max-height: 20px;
+  width: auto;
+}
+.atwho-view ul li{
+  display:block;
+  padding:5px;
+  border-bottom:1px solid #2A2A2A;
+  cursor:pointer
+}
+.atwho-view ul li:last-of-type{
+  border: none;
+}
+.atwho-view small{
+  font-size:smaller;
+  color:#777;
+  font-weight:400
+}
+.atwho-view:nth-of-type(2) .cur{
+  background:#2b2b2ba6;
+}
+.atwho-view:nth-of-type(2) strong{
+  color: inherit;
+  text-decoration: underline;
+}
+.atwho-view:nth-of-type(2) .cur strong{
+  color:inherit;
+}
+.atwho-view:nth-of-type(2) .registered_rank strong{
+  color: #fff;
+}
+span.at {
+  color: inherit;
+  background: none;
+}
+
+
+/* KINGS */
+#shoutbox a[href$="member.php?action=profile&uid=707074"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  position:relative;
+  background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
+  background-size:250%, 600% 600%;
+  font-weight:bold;
+  -webkit-animation:AnimationName 4s ease infinite;
+  -moz-animation:AnimationName 4s ease infinite;
+  animation:AnimationName 4s ease infinite;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  border-bottom:1px dotted #ffd700
+}
+/* BOSS OF THE BOSSES */
+#shoutbox a[href$="member.php?action=profile&uid=999999999"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  font-weight: bold;
+  color: #b590ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: repeat;
+  text-shadow: 1px 1px 10px #6e00ff;
+  animation: particles 4s infinite,shadow 2s linear infinite;
+}
+
+/* EVIL SANGO BANGO - color orange */
+
+#shoutbox a[href$="member.php?action=profile&uid=100000010"]>span {
+  color: #fa3300;
+  -webkit-text-fill-color: #fa3300;
+  text-shadow: 0px 0px 3px #fa3300;
+  background: url(https://i.imgur.com/EabrU5G.gif);
+  background-size: 100%;
+}
+
+/* ROYALTY */
+#shoutbox a[href$="member.php?action=profile&uid=999999999999"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  font-weight: bold;
+    background: linear-gradient(-45deg,rgba(248,1,1,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 20%,rgba(248,1,1,1) 30%,rgba(248,1,1,1) 40%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 60%,rgba(248,1,1,1) 70%,rgba(248,1,1,1) 80%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%);
+    animation: animx 1s infinite linear;
+    text-shadow: 0px 0px 6px #f21e1ea3;
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: 0 50%;
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+}
+
+/* The Almighty */
+#shoutbox a[href$="member.php?action=profile&uid=10000005"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  -webkit-animation: hue 8s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://static.cracked.to/images/bg1.gif),-webkit-linear-gradient(92deg,#f35626,#feab3a);
+    font-weight: bold !important;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 18%);
+}
+
+/* Dreams */
+#shoutbox a[href$="member.php?action=profile&uid=10000004"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  -webkit-text-fill-color: transparent;
+    color: #FF512F;
+    font-weight: 700;
+  -webkit-background-clip: text;
+    text-shadow: 0 0 5px #4e1336;
+    background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient(90deg,#ed0d0d 0,#590e4b 100%,#fff);
+
+}
+
+/* irefunder */
+#shoutbox a[href$="member.php?action=profile&uid=2734070"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  background: url(https://static.cracked.to/images/onyx-bg.gif);
+    text-shadow: 0.5px 0.5px 5px;
+    -webkit-animation: hueanim 10s infinite linear;
+    color: #0FF;
+    font-weight: bold;
+
+}
+
+/* refundgod */
+#shoutbox a[href$="member.php?action=profile&uid=10000002"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  position: relative;
+  letter-spacing: .02em;
+  text-shadow: 0.75px 0.75px 7px #0071ffad;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: border-box,text;
+  background-image: url(https://static.cracked.io/images/refund_god.gif),repeating-linear-gradient(90deg,#44dbff 25%,#e4ff00 47%,#00ff1d 53%,#44dbff 75%);
+  background-size: 7em,10em;
+  animation: refund-god-anim 3s linear infinite;
+
+}
+
+/* harvey */
+#shoutbox a[href$="member.php?action=profile&uid=2399708"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #1b9bbd;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #540973;
+    background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient(90deg,#f00 0%,#00ff2a 100%,#f00);
+    animation: harvey 5s infinite linear;
+
+}
